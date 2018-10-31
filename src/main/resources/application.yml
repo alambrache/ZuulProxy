@@ -1,0 +1,6 @@
+server:
+  port: 8090
+zuul:
+  routes:
+    sfa:
+      url: http://localhost:8804/sfa
